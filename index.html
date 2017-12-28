@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Курс по фронтэнду</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/mystyle.css">
 </head>
 <body>
-    <nav>
-        <a href="#">Кто я такой</a>
-    </nav>
-    
      <header>
+        <nav>
+            <a href="#whoami">Кто я такой</a>
+        </nav>
         <h1>
             Курс по фронтэнду.<br>
             Версия 1.5
@@ -20,8 +21,7 @@
     </header>
 
     <main>
-
-      <section id="whoami">
+      <section class="landing-sectoin-whoami" id="whoami">
         <h2>Кто я такой.</h2>
         <p>Меня зовут Евгений Родионов, и я учу людей фронтэнду.</p>
         <p>
@@ -42,7 +42,7 @@
         </aside>
       </section>
 
-      <section id="changelog">
+      <section class="landing-session-changelog" id="changelog">
         <h2>Чейнджлог к версии 1.5</h2>
         <p>
             Я провел 4 потока и понял узкие места курса.
@@ -66,7 +66,6 @@
             <li>🔥 программа не будлет прыгать на ходу;</li>
         </ul>
       </section>
-
     </main>
 </body>
 </html>
